@@ -1,0 +1,16 @@
+.stApp {
+    background-image: url("static/fruit-pattern-bg.png");
+    background-size: 300px;
+    background-repeat: repeat;
+}
+
+.stApp::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: -1;
+} 
